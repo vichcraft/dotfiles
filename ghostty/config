@@ -1,0 +1,16 @@
+# aesthetics
+background-opacity = 0.85
+background-blur=true
+# background=#000000
+macos-titlebar-style = hidden
+
+# font stuff
+# font-size=16
+font-thicken=true
+font-thicken-strength=1
+adjust-cell-height=1
+
+background-blur-radius = 50
+window-decoration = false
+font-size = 15
+theme = Srcery
