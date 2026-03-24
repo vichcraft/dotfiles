@@ -5,7 +5,7 @@ SCRIPT_AUDIO_OUTPUT="export PATH=$PATH; $RELPATH/plugins/audio_output/script.sh"
 
 ## Item properties
 audio_output=(
-  icon=􀟛
+  icon=􀑈
   icon.color=$ACTIVE
   label.drawing=off
   padding_left=0

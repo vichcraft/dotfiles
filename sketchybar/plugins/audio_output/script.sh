@@ -98,10 +98,8 @@ update_item() {
     return 1
   fi
 
-  local current="$(SwitchAudioSource -c -t output)"
-  local icon="$(get_device_icon "$current")"
-
-  sketchybar --animate tanh 30 --set $NAME icon="$icon" label="$current"
+  # Icon stays fixed as headphone symbol; no label shown
+  return 0
 }
 
 case "$SENDER" in
