@@ -4,7 +4,7 @@
 ARTWORK_MARGIN=5
 TITLE_MARGIN=$((3 + $BAR_HEIGHT / 4))
 # Allow override from global config via MUSIC_INFO_WIDTH
-INFO_WIDTH=${MUSIC_INFO_WIDTH:-80}
+INFO_WIDTH=${MUSIC_INFO_WIDTH:-180}
 
 SCRIPT_MUSIC="export PATH=$PATH; $RELPATH/plugins/music/script-artwork.sh $ARTWORK_MARGIN $BAR_HEIGHT"
 SCRIPT_CLICK_MUSIC_ARTWORK="export PATH=$PATH; media-control toggle-play-pause"
@@ -45,7 +45,7 @@ music_title=(
 	icon.drawing=off
 	label.align=left
 	label.width=$INFO_WIDTH
-	label.max_chars=13
+	label.max_chars=30
 	label.font="$FONT:Semibold:10.0"
 	scroll_texts=off
 	padding_left=0
@@ -62,7 +62,7 @@ music_subtitle=(
 	icon.drawing=off
 	label.align=left
 	label.width=$INFO_WIDTH
-	label.max_chars=14
+	label.max_chars=30
 	label.font="$FONT:Semibold:9.0"
 	scroll_texts=off
 	padding_left=0

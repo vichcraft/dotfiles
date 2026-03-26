@@ -26,7 +26,7 @@ fi
 
 ## Fallback defaults if variables unset
 : "${NOTCH_WIDTH:=180}"                                      # <int>
-: "${MUSIC_INFO_WIDTH:=80}"                                  # <int>
+: "${MUSIC_INFO_WIDTH:=180}"                                 # <int>
 : "${MENUBAR_AUTOHIDE:=True}"                                # <true|false>
 : "${GITHUB_TOKEN:="~/.github_token"}"                       # <path>
 : "${WIFI_UNREDACTOR:="~/Applications/wifi-unredactor.app"}" # <path>
